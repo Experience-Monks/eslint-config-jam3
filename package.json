@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-jam3",
+  "version": "0.1.0",
+  "description": "Jam3's Universal ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jam3/eslint-config-jam3.git"
+  },
+  "keywords": ["eslint", "eslintconfig", "config", "jam3", "javascript", "styleguide"],
+  "contributors": [
+    {
+      "name": "Iran Reyes",
+      "url": "http://www.iranreyes.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jam3/eslint-config-jam3/issues"
+  },
+  "homepage": "https://github.com/Jam3/eslint-config-jam3#readme",
+  "peerDependencies": {
+    "eslint": "^4.18.2"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}
