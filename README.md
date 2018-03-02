@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/eslint-config-jam3.svg)](http://badge.fury.io/js/eslint-config-jam3)
 
-Jam3's Universal ESLint config
+> Jam3's Universal ESLint config
 
 ## Usage
 
