@@ -4,18 +4,27 @@
 
 > Jam3's Universal ESLint config
 
-## Usage
-
-### eslint-config-jam3
-
-1.  Install the npm package
+## Installation
 
 ```bash
 npm install --save-dev eslint-config-jam3
+```
+
+## Usage
+
+Once installed `eslint-config-jam3` add `jam3` in your `extends` section of your [ESLint configuration](https://eslint.org/docs/user-guide/configuring)
+
+```
+{
+  "extends": ["...","jam3"],
+  "rules": {
+    // ...
+  }
+}
 ```
 
 2.  Add "extends": "jam3" to your .eslintrc
 
 ## Contributing
 
-TBF
+Please ensure you read [CODE_OF_CONDUCT](CODE_OF_CONDUCT) and [CODE_REVIEW](CODE_REVIEW) before start contributing
