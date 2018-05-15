@@ -21,14 +21,11 @@ module.exports = {
     }
   },
 
-  plugins: ['prettier', 'promise', 'import', 'jsx-a11y'],
+  plugins: ['promise', 'import', 'jsx-a11y'],
 
-  extends: ['eslint:recommended', 'prettier'],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
 
   rules: {
-    // https://github.com/prettier/eslint-plugin-prettier
-    'prettier/prettier': 'error',
-
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules
     'jsx-a11y/href-no-hash': 'off',
 
