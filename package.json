@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jam3",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Jam3's ESLint config",
   "main": "index.js",
   "scripts": {
