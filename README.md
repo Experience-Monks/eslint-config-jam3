@@ -23,8 +23,6 @@ Once installed `eslint-config-jam3` add `jam3` in your `extends` section of your
 }
 ```
 
-2.  Add "extends": "jam3" to your .eslintrc
-
 ## Contributing
 
 Please ensure you read [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) and [CODE_REVIEW](CODE_REVIEW.md) before start contributing
