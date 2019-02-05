@@ -23,7 +23,7 @@ npm i eslint-config-jam3 -D
 Because ESLint only exports a configuration file you need to install all the plugins and configs that this file is depending on.
 
 ```bash
-npm i eslint babel-eslint eslint-plugin-import eslint-plugin-promise eslint-plugin-jsx-a11y eslint-plugin-react prettier eslint-config-prettier eslint-plugin-prettier -D
+npm i prettier eslint babel-eslint eslint-plugin-import eslint-plugin-promise eslint-plugin-node eslint-config-prettier eslint-plugin-prettier eslint-config-standard eslint-plugin-standard -D
 ```
 
 ## Usage
@@ -54,8 +54,8 @@ pull requests.
 
 ## Related
 
-- [eslint-config-react-jam3](https://www.npmjs.com/package/eslint-config-react-jam3) - ESLint base config used at Jam3
-- [eslint-plugin-jam3](https://www.npmjs.com/package/eslint-plugin-jam3) - ESLint set of custom rules used at Jam3
+- [eslint-config-react-jam3](https://www.npmjs.com/package/eslint-config-react-jam3) - ESLint config for React apps used at Jam3
+- [eslint-plugin-jam3](https://www.npmjs.com/package/eslint-plugin-jam3) - ESLint set of custom rules used at Jam3, including security rules
 
 ## License
 
