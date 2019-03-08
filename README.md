@@ -1,4 +1,6 @@
 # eslint-config-jam3
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJam3%2Feslint-config-jam3.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FJam3%2Feslint-config-jam3?ref=badge_shield)
+
 
 This package exposes the Jam3's ESLint config file for JS based applications.
 
@@ -60,3 +62,6 @@ pull requests.
 ## License
 
 [MIT](LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJam3%2Feslint-config-jam3.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FJam3%2Feslint-config-jam3?ref=badge_large)
