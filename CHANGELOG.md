@@ -6,6 +6,7 @@
 - variable declaration using var will throw error
 - Not allowed empty functions
 - Add more restrictions to importing modules
+- Add restricted modules to enforce use the facade
 
 ## Launch v2.0.0
 

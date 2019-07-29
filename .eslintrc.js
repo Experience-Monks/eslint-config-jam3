@@ -1,5 +1,7 @@
 'use strict';
 
+const restrictedModules = ['gsap', 'gsap-promisify', 'bowser', 'dompurify', 'bezier-easing'];
+
 module.exports = {
   parser: 'babel-eslint',
 
@@ -27,6 +29,8 @@ module.exports = {
     'no-console': 'error',
     'no-var': 'error',
     'no-empty-function': 'error',
+    'no-restricted-modules': ['error'].concat(restrictedModules),
+    'no-restricted-imports': ['error'].concat(restrictedModules),
     eqeqeq: ['warn', 'always', { null: 'ignore' }],
 
     'promise/no-return-wrap': 'error',
