@@ -4,6 +4,7 @@
 
 - console calls will throw error (you will need to ignore the linter intentionally)
 - variable declaration using var will throw error
+- Not allowed empty functions
 
 ## Launch v2.0.0
 
