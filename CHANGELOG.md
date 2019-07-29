@@ -5,6 +5,7 @@
 - console calls will throw error (you will need to ignore the linter intentionally)
 - variable declaration using var will throw error
 - Not allowed empty functions
+- Add more restrictions to importing modules
 
 ## Launch v2.0.0
 

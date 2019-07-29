@@ -36,10 +36,19 @@ module.exports = {
     'import/no-unresolved': ['error', { ignore: ['svg-inline-loader'] }],
     'import/named': 'error',
     'import/default': 'error',
-    'import/order': ['error', { groups: ['builtin', 'external', ['parent', 'sibling', 'index']] }],
+    'import/order': [
+      'error',
+      { groups: ['builtin', 'external', ['parent', 'sibling', 'index']], 'newlines-between': 'always' }
+    ],
     'import/no-extraneous-dependencies': [
       'warn',
       { devDependencies: true, optionalDependencies: true, peerDependencies: false }
-    ]
+    ],
+    'import/exports-last': 'error',
+    'import/extensions': ['error', 'always', { js: 'never' }],
+    'import/newline-after-import': ['error', { count: 1 }],
+    'import/no-amd': 'error',
+
+    'import/no-nodejs-modules': 'warn'
   }
 };
