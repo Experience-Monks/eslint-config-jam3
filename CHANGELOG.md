@@ -3,6 +3,7 @@
 ## Launch v2.0.1
 
 - console calls will throw error (you will need to ignore the linter intentionally)
+- variable declaration using var will throw error
 
 ## Launch v2.0.0
 

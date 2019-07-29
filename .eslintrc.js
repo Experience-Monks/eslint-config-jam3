@@ -25,6 +25,7 @@ module.exports = {
 
   rules: {
     'no-console': 'error',
+    'no-var': 'error',
     eqeqeq: ['warn', 'always', { null: 'ignore' }],
 
     'promise/no-return-wrap': 'error',
