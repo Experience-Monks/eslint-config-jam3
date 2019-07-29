@@ -24,7 +24,7 @@ module.exports = {
   extends: ['eslint:recommended', 'standard', 'plugin:prettier/recommended'],
 
   rules: {
-    'no-console': 'warn',
+    'no-console': 'error',
     eqeqeq: ['warn', 'always', { null: 'ignore' }],
 
     'promise/no-return-wrap': 'error',
