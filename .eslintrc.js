@@ -1,5 +1,7 @@
 'use strict';
 
+const restrictedModules = ['gsap', 'gsap-promisify', 'bowser', 'dompurify', 'bezier-easing'];
+
 module.exports = {
   parser: 'babel-eslint',
 
@@ -24,7 +26,11 @@ module.exports = {
   extends: ['eslint:recommended', 'standard', 'plugin:prettier/recommended'],
 
   rules: {
-    'no-console': 'warn',
+    'no-console': 'error',
+    'no-var': 'error',
+    'no-empty-function': 'error',
+    'no-restricted-modules': ['error'].concat(restrictedModules),
+    'no-restricted-imports': ['error'].concat(restrictedModules),
     eqeqeq: ['warn', 'always', { null: 'ignore' }],
 
     'promise/no-return-wrap': 'error',
@@ -34,10 +40,19 @@ module.exports = {
     'import/no-unresolved': ['error', { ignore: ['svg-inline-loader'] }],
     'import/named': 'error',
     'import/default': 'error',
-    'import/order': ['error', { groups: ['builtin', 'external', ['parent', 'sibling', 'index']] }],
+    'import/order': [
+      'error',
+      { groups: ['builtin', 'external', ['parent', 'sibling', 'index']], 'newlines-between': 'always' }
+    ],
     'import/no-extraneous-dependencies': [
       'warn',
       { devDependencies: true, optionalDependencies: true, peerDependencies: false }
-    ]
+    ],
+    'import/exports-last': 'error',
+    'import/extensions': ['error', 'always', { js: 'never' }],
+    'import/newline-after-import': ['error', { count: 1 }],
+    'import/no-amd': 'error',
+
+    'import/no-nodejs-modules': 'warn'
   }
 };
